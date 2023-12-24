@@ -154,25 +154,132 @@ p{
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     
-    /*
-    
+    *{
+        max-width: 767;
+    }
+
     #CapaPrincipal {
-        background-size: 105%;
-        background-position-y: -80px;
-        background-position-x: -10px;
-        }
-    */
+        height: 667px;
+        background-size: 265%;
+        background-position-y: 0;
+        background-position-x: 49.25%;
+    }
+
+    #Buffet{
+        background-size: 270%;
+        height: 667px;
+        background-position-x: 49%;
+    }
+
+    #DressCode{
+        height: 667px;
+        background-size: 290%;
+        background-position-x:35%;
+    }
+
+    #Fechamento{
+        height: 667px;
+        background-size: 400%;
+        background-position-x:58%;
+    } 
+    
+    /*  Tipografia  */
+    
+    #TítuloCapa h1{
+        font-size: 4em;
+        position: absolute;
+        top: 40%;     
+        text-align: center;  
+    }
+
+    #Buffet h1, #DressCode h1{
+        position: relative;
+        top: 45%;
+        font-size: 4em;
+    }
+
+    #SobreBuffet, #SobreDressCode, #SobreCapa{
+        font-size: 0.8em;
+        margin-bottom: 10%;
+    }
+
+    #SobreDressCode{
+        height: 650px;
+        font-size: 1em;
+    }
+
+    #Fechamento p{
+        font-size: 3em;
+        color: black;
+    }
+    #Fechamento #Destaque{
+        font-size: 4em;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /*
+    *{
+        max-width: 575;
+    }
+
     #CapaPrincipal {
-        background-size: 110%;
-        background-position-y: -65px;
-        background-position-x: -30px;
-        }
-    */
+        height: 667px;
+        background-size: 265%;
+        background-position-y: 0;
+        background-position-x: 49.25%;
+    }
+
+    #Buffet{
+        background-size: 270%;
+        height: 667px;
+        background-position-x: 49%;
+    }
+
+    #DressCode{
+        height: 667px;
+        background-size: 290%;
+        background-position-x:35%;
+    }
+
+    #Fechamento{
+        height: 667px;
+        background-size: 400%;
+        background-position-x:58%;
+    } 
+    
+    /*  Tipografia  */
+    
+    #TítuloCapa h1{
+        font-size: 4em;
+        position: absolute;
+        top: 40%;     
+        text-align: center;  
+    }
+
+    #Buffet h1, #DressCode h1{
+        position: relative;
+        top: 45%;
+        font-size: 4em;
+    }
+
+    #SobreBuffet, #SobreDressCode, #SobreCapa{
+        font-size: 0.8em;
+        margin-bottom: 10%;
+    }
+
+    #SobreDressCode{
+        height: 650px;
+        font-size: 1em;
+    }
+
+    #Fechamento p{
+        font-size: 3em;
+        color: black;
+    }
+    #Fechamento #Destaque{
+        font-size: 4em;
+    }
 } 
 
 /* Large devices (desktops, 992px and up)             DESKTOP/ PRINCIPAL       DONE               */
